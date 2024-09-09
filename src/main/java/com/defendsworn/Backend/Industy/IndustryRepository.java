@@ -1,10 +1,11 @@
-package com.defendsworn.Backend.repository;
+package com.defendsworn.Backend.Industy;
 
-import com.defendsworn.cybersecurity.model.Industry;
+
+import com.defendsworn.Backend.model.Industry;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IndustryRepository extends JpaRepository<Industry, Long> {
-    // Custom query methods can be added here if necessary
+    // You can define custom queries here if needed
 }
