@@ -1,0 +1,186 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #000;
+    padding: 20px 0;
+    color: white;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-holder ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-holder ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Home Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #000;
+    color: white;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Industries Section */
+.industries-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.industries-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.industry img {
+    width: 100px;
+    height: auto;
+}
+
+.industry h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Types of Threats Section */
+.threats-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.threats-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.threat img {
+    width: 300px;
+    margin-left: auto;
+}
+
+.threat h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 100px 0;
+    text-align: left;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .submit-btn {
+    padding: 10px 20px;
+    background-color: #258aca;
+    color: white;
+    border:#555;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #1e6ba6;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
